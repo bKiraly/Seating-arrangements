@@ -1,5 +1,6 @@
-#Seating arrangements proof/explanation
+# Seating arrangements proof/explanation
 
+Task: Prove that the probability of a group of 9 guests ending up among the 10 guests with good seats in an audience of 38 is astronomically low (\<0.1%).
 
 Let's call our normal guests N1, N2, N3, ..., N29 and our preferred guests P1, P2, P3, ..., P9.
 
@@ -25,14 +26,17 @@ So the seating configuration might look like this:
 The condition is fulfilled for an arbitrary arrangement of these guests, independent of the arrangement of the priority seats, so we have 29! possibilities to arrange the normal guests.
 
 
-Since the two arrangements are independent from oneother, we have to multiply them to get the total number of favorable cases. In this case that would be 10!*29!.
+Since the two arrangements are independent from oneother, we have to multiply them to get the total number of favorable cases. In this case that would be 10!\*29!.
 
 
-Finally we devide the number of favorable cases with the number of non-favorable cases to get 10!*29!/38!
+Finally we devide the number of favorable cases with the number of non-favorable cases to get 10!\*29!/38!
 
 See image for arrangement.
 
 
 [![Graphical representation](seats.png)](seats.svg)
+
+
+This is approximately 6.13\*10^-8, **far** less than 0.1%.
 
 Q.E.D.
