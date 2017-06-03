@@ -30,6 +30,6 @@ Since the two arrangements are independent from oneother, we have to multiply th
 
 Finally we devide the number of favorable cases with the number of non-favorable cases to get 10!*29!/38!
 
-See [Graphical representation](https://cdn.rawgit.com/bKiraly/Seating-arrangements/seats.svg) for more details.
+[![Graphical representation](seats.png)](seats.svg)
 
 Q.E.D.
