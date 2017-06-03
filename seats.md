@@ -28,14 +28,13 @@ The condition is fulfilled for an arbitrary arrangement of these guests, indepen
 
 Since the two arrangements are independent from oneother, we have to multiply them to get the total number of favorable cases. In this case that would be 10!\*29!.
 
-
-Finally we devide the number of favorable cases with the number of non-favorable cases to get 10!\*29!/38!
-
 See image for arrangement.
 
 
 [![Graphical representation](seats.png)](seats.svg)
 
+
+Finally we devide the number of favorable cases with the number of non-favorable cases to get 10!\*29!/38!
 
 This is approximately 6.13\*10^-8 or 0.0000000613 or 0.00000613%, *far* less than 0.1%.
 
