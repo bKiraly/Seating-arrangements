@@ -37,6 +37,6 @@ See image for arrangement.
 [![Graphical representation](seats.png)](seats.svg)
 
 
-This is approximately 6.13\*10^-8, **far** less than 0.1%.
+This is approximately 6.13\*10^-8, *far* less than 0.1%.
 
 Q.E.D.
